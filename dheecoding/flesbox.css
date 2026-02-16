@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    .navbar{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        align-items: center;
+        border-bottom: 1px solid black;
+ a {
+            color: black;
+            text-decoration: none;
+            margin-left: 30px;
+ }
+        
+        
+    }
+    .logo{
+            justify-content: right;
+        }
+    .title{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+
+        i {
+            font-size: 50px;
+            color: rgb(8, 8, 59);
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(8, 8, 59);
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+    }
+    .subnavbar{
+         display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        border-bottom: 1px solid black;
+
+        a {
+            text-decoration: none;
+            color: rgb(81, 76, 76);
+            font-size: 18px;
+
+        }
+
+    }
+    .cards{
+        display: flex;
+        gap: 20px;
+          .card {
+            margin-top: 20px;
+            border: 1px solid black;
+            padding: 5px;
+            width: 300px;
+            border-radius: 5px;
+
+            img {
+                width: 300px;
+            }
+
+            h1 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: justify;
+                font-family: cursive;
+                color: rgb(41, 36, 36);
+            }
+
+            a {
+                color: red;
+                text-decoration: none;
+                text-transform: capitalize;
+
+            }
+
+            .date {
+                border-top: 1px solid red;
+                font-size: 10px;
+                color: rgb(138, 134, 134);
+            }
+        }
+    }
+    .footer{
+        margin-top: 20px;
+        padding: 20px; 
+        text-align: center; 
+        font-size: 15px;
+        color: white;
+        background-color: rgb(8, 8, 59);
+         a{
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family:sans-serif;
+            font-weight: bold;
+        }
+         .foot{
+            border-bottom: 1px solid white;
+            margin-bottom: 10px;
+        }  
+    }
+}

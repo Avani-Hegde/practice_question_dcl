@@ -1,0 +1,56 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+ body{
+    background-color: red;
+ 
+ }
+ .project{
+    border: 5px solid rgb(182, 182, 182);
+    color: white;
+    margin: 150px 300px;
+    background-color: black;
+border-radius: 20px;
+padding-top: 5px;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+
+
+    h2{
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+        
+    }
+    h1{
+         font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    h3{
+         font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    p{
+         font-size: 20px;
+        font-family: fantasy;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+    .link
+    {
+        a{
+        
+        text-decoration: none;
+        margin-top: 10px;
+    font-size: 30px;
+    color: rgb(245, 245, 245);
+    }
+ }
+}
