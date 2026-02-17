@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+ 
+.form{
+    display: flex;
+    background-color:lightgreen;
+    
+    border: 5px solid green;
+    width: 500px;
+    height: 600px;
+    margin: 5px 5px 5px 5px;
+     padding: 10px 10px 10px 10px  ;
+     margin-left: 400px;
+    .name{
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        
+
+        #name{
+            color: grey;
+            width:400px;
+            text-align: left;
+            border-radius: 2px;
+            padding-left: 4px;
+             margin-bottom: 10px;
+        }
+
+    }
+    .email{
+        font-size: 15px;
+        color: black;
+         font-weight: bold;
+        #email{
+             color: grey;
+            width:400px;
+            text-align: left;
+            border-radius: 2px;
+            padding-left: 4px;
+             margin-bottom: 10px;
+
+        }
+
+    }
+    .age
+    {
+        font-size: 15px;
+        color: black;
+         font-weight: bold;
+    }
+    #age{
+         color: grey;
+            width:400px;
+            text-align: left;
+            border-radius: 2px;
+            padding-left: 4px;
+             margin-bottom: 10px;
+
+    }
+    .choice1
+    {
+         font-size: 15px;
+        color: black;
+         margin-bottom: 10px;
+          
+    
+
+    }
+    #role{
+         color: grey;
+            width:400px;
+            text-align: left;
+            border-radius: 2px;
+            padding-left: 4px;
+             margin-bottom: 10px;
+
+    }
+    .choice2{
+         font-size: 15px;
+        color: black;
+         font-weight: bold;
+        #a,#b,#c
+        {
+            color: grey;
+            
+            text-align: left;
+            border-radius: 2px;
+            padding-left: 4px;
+             margin-bottom: 10px;
+
+        }
+
+
+    }
+    .checkbox1{
+         font-size: 15px;
+        color: black;
+         font-weight: bold;
+         #a,#b,#c,#d,#e,#f
+        {
+            color: grey;
+            
+            text-align: left;
+            border-radius: 2px;
+            padding-left: 4px;
+             margin-bottom: 10px;
+
+        }
+
+
+    }
+    .comments{
+          font-size: 15px;
+        color: black;
+         font-weight: bold;
+
+        comment{
+            p{
+                margin-bottom: 5px;
+            }
+         color: grey;
+            
+            text-align: left;
+            border-radius: 2px;
+            padding-left: 4px;
+             margin-bottom: 10px;
+            
+
+
+        }
+    }
+    #submit{
+        margin-top: 40px;
+        background-color: green;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        width: 500px;
+        height: 20px;
+         font-weight: bold;
+          
+    }
+
+
+}
