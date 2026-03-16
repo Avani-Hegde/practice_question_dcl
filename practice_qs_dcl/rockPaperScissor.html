@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="booleans.js"></script>
+    
+<p>
+    Rock,Paper,Scissors
+</p>
+<button onclick="
+const number=Math.random()
+let computerMove=''
+if(number>=0 && number<=1/2){
+    computerMove='rock'
+
+}
+else if(number>1/2 && number>2/3){
+    computerMove='paper'
+}
+else {
+    computerMove='scissor'
+}
+let result=''
+
+if(computerMove==='rock'){
+    result='you tie'
+}
+else if(computerMove==='paper'){
+     result='you tie'
+}
+else{
+     result='you loose'
+}
+alert(`you picked rock! computer picked ${computerMove} ${result}`)
+
+">
+Rock
+</button >
+<button onclick="
+number=Math.random()
+let computerMove1=''
+if(number>=0 && number<=1/2){
+    computerMove='rock'
+
+}
+else if(number>1/2 && number>2/3){
+    computerMove='paper'
+}
+else {
+    computerMove='scissor'
+}
+ 
+let result=''
+if(computerMove==='rock'){
+    result='you win'
+}
+else if(computerMove==='paper'){
+     result='you tie'
+}
+else{
+     result='you loose'
+}
+alert(`you picked paper! computer picked ${computerMove} ${result}`)
+">
+Paper
+</button>
+<button onclick="
+ number=Math.random()
+computerMove=''
+if(number>=0 && number<=1/2){
+    computerMove='rock'
+
+}
+else if(number>1/2 && number>2/3){
+    computerMove='paper'
+}
+else {
+    computerMove='scissor'
+}
+ 
+let result=''
+if(computerMove==='rock'){
+    result='you loose'
+}
+else if(computerMove==='paper'){
+     result='you win'
+}
+else{
+     result='tie'
+}
+alert(`you picked scissor! computer picked ${computerMove} ${result}`)
+">
+Scissors
+</button>
+</body>
+</html>
