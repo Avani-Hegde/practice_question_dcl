@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* Navbar */
+
+#navbar{
+background:black;
+height:70px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+#elements{
+display:flex;
+gap:80px;
+}
+
+#elements a{
+color:white;
+text-decoration:none;
+font-size:22px;
+transition:0.3s;
+position:relative;
+}
+
+#elements a:hover{
+color:red;
+}
+
+/* underline animation */
+
+#elements a::after{
+content:"";
+position:absolute;
+width:0%;
+height:2px;
+background:red;
+left:0;
+bottom:-5px;
+transition:0.4s;
+}
+
+#elements a:hover::after{
+width:100%;
+}
+
+/* Main */
+
+#main{
+width:850px;
+margin:auto;
+margin-top:40px;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+transition:0.4s;
+}
+
+#main:hover{
+transform:scale(1.02);
+}
+
+/* Text */
+
+#text{
+text-align:center;
+}
+
+#text h4{
+color:gray;
+}
+
+#text h1{
+font-size:40px;
+margin:10px 0;
+}
+
+#name{
+color:red;
+}
+
+/* Image */
+
+#text img{
+width:300px;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+margin:20px 0;
+transition:0.4s;
+}
+
+#text img:hover{
+transform:scale(1.1);
+}
+
+/* Paragraph */
+
+#text p{
+margin-top:10px;
+line-height:1.6;
+}
+
+/* Social icons */
+
+#btns{
+margin-top:20px;
+}
+
+#btns a{
+font-size:25px;
+margin:0 10px;
+color:black;
+transition:0.3s;
+}
+
+#btns a:hover{
+color:red;
+transform:scale(1.2);
+}
+
+/* Buttons */
+
+.buttons{
+margin-top:20px;
+}
+
+.buttons button{
+padding:10px 20px;
+font-size:18px;
+margin:10px;
+cursor:pointer;
+border:none;
+background:black;
+color:white;
+border-radius:5px;
+transition:0.3s;
+}
+
+.buttons button:hover{
+background:red;
+transform:scale(1.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="navbar">
+
+<div id="elements">
+<a href="project.html">Home</a>
+<a target="_blank" href="project2.html">About</a>
+<a target="_blank" href="project3.html">Contact</a>
+<a href="https://maps.google.com">Location</a>
+</div>
+
+</div>
+
+
+<div id="main">
+
+<div id="text">
+
+<h4>Hello 👋</h4>
+
+<h1>I am <span id="name">Avni Hegde</span></h1>
+
+<img src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=1170&auto=format&fit=crop">
+
+<h2>Fullstack Developer</h2>
+
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Voluptatibus molestias quisquam aperiam fugiat id mollitia.
+Cumque voluptate dignissimos excepturi esse totam dicta.
+</p>
+
+<div id="btns">
+
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+<div class="buttons">
+<button>Hire Me</button>
+<a href="project2.html"><button>Contact Me</button></a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<script src="project.js"></script>
+</body>
+</html>

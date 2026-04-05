@@ -1,0 +1,205 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+
+<style>
+
+/* Reset */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+background:black;
+display:flex;
+justify-content:center;
+gap:80px;
+padding:20px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-size:20px;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:red;
+transform:scale(1.1);
+}
+
+/* Main container */
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:60px;
+padding:60px;
+background:#f2f2f2;
+min-height:90vh;
+}
+
+/* Image */
+.profile img{
+width:300px;
+border-radius:10px;
+transition:0.4s;
+}
+
+.profile img:hover{
+transform:scale(1.05);
+}
+
+/* About text */
+.about{
+max-width:500px;
+}
+
+.about h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.about span{
+color:red;
+}
+
+.about p{
+font-size:18px;
+line-height:1.6;
+margin-bottom:20px;
+}
+
+/* Skills */
+.skills{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.skill{
+background:white;
+padding:10px 20px;
+border-radius:5px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.skill:hover{
+background:red;
+color:white;
+transform:translateY(-5px);
+}
+
+/* Buttons */
+.buttons{
+margin-top:25px;
+}
+
+.buttons button{
+padding:10px 20px;
+font-size:16px;
+margin-right:15px;
+border:none;
+background:black;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.buttons button:hover{
+background:red;
+}
+
+/* Social icons */
+.social{
+margin-top:20px;
+}
+
+.social a{
+font-size:25px;
+margin-right:15px;
+color:black;
+transition:0.3s;
+}
+
+.social a:hover{
+color:red;
+transform:scale(1.2);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+<a href="project.html">Home</a>
+<a href="about.html">About</a>
+<a href="project2.html">Contact</a>
+<a href="https://maps.google.com">Location</a>
+</div>
+
+<!-- About Section -->
+<div class="container">
+
+<div class="profile">
+<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500">
+</div>
+
+<div class="about">
+
+<h1>About <span>Me</span></h1>
+
+<p>
+Hello! I am <b>Avni Hegde</b>, a passionate Full Stack Developer.
+I enjoy building modern and responsive websites using HTML, CSS,
+JavaScript and backend technologies.
+</p>
+
+<p>
+I love learning new technologies and creating creative projects
+that solve real world problems.
+</p>
+
+<!-- Skills -->
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Node.js</div>
+<div class="skill">MongoDB</div>
+</div>
+
+<!-- Buttons -->
+<div class="buttons">
+<button>Download CV</button>
+<button onclick="location.href='project2.html'">Contact Me</button>
+</div>
+
+<!-- Social Icons -->
+<div class="social">
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+
+</div>
+
+</div>
+
+</body>
+<script src="project.js"></script>
+</html>
